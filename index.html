@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>WDD 131</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <title>WDD 131 - Dynamic Web Fundamentals - Bruce Bennet</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Bruce Bennet - Personal page">
+    <meta name="author" content="Bruce Bennet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>Bruce Bennet</h1>
+    <header class="head">
+        <h1>WDD 131 - Dynamic Web Fundamentals - Bruce Bennet</h1>
+        <nav>
+            <a href="https://www.linkedin.com/in/bruce-bennet-t/">LinkedIn</a>
+            <a href="https://byui.instructure.com/">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/37?lang=eng&id=p6#p6">Scripture</a>
+            <a>Final Project</a>
+        </nav>
+    </header>
+    <main class="mainpage">
+        <div class="maincontent card">
+            <div class="cardtitle">
+                <h2>About me</h2>
+            </div>
+            <div class="cardrest">
+                <img src="images/profile.jpg" class="profile" alt="Bruce Bennet">
+                <p>
+                    Hi! My name is Bruce Bennet. Despite my name, I'm actually from Mexico, hehe. I'd love to relearn
+                    html as I loved programming with it!
+                    I love to apply my creativity. I love to design, draw, write, and make music. An important way I
+                    have applied my creativity is that
+                    I have made several card games, for a time I was making an animation (including its soundtrack), and
+                    written several scripts.
+                    I hope that this course will help me make my own web page for my creations. I might use it to tell
+                    my story and share my works.
+                    A web page can also help me show authority for my brand (as I remember it being an important factor
+                    when I studied digital marketing).
+                    I just need the money to get the rights to sell my works.
+                </p>
+                <div class="veracruz">
+                    <h2>Veracruz, Mexico</h2>
+                    <figure class="coatza">
+                        <img src="https://diarioistmo.blob.core.windows.net.optimalcdn.com/images/2023/09/07/crop-w1558-h1174-codi0906-especial-malecon-ch--22.jpg" alt="Bruce Bennet">
+                        <figcaption>Coatzacoalcos</figcaption>
+                    </figure>
+                    <p>A place in Mexico very known for being near the coast. There's even memes about us being fish or crabs by being close to the beach!</p>
+                </div>
+            </div>
+        </div>
+        <aside class="asidecontent card">
+            <div class="cardtitle">
+                <h2>Web Dev Resources</h2>
+            </div>
+            <div class="cardrest">
+                <p>Aside content</p>
+            </div>
+        </aside>
+    </main>
+    <footer class="foot">
+        <p>©<span id="currentyear"></span> | Bruce Bennet | Coatzacoalcos, Veracruz</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
 </body>
+
 </html>
