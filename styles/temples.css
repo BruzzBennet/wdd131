@@ -40,7 +40,7 @@ main{
     margin: 1rem auto;
     text-align: center;
     display: grid;
-    grid-column: 1fr;
+    grid-template-columns: 1fr;
 }
 
 img{
