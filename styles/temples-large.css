@@ -5,4 +5,7 @@
 	#menu {
 		display: none;
 	}
+    img{
+        max-width: 75%;
+    }
 }

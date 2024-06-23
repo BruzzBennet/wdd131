@@ -9,5 +9,5 @@ const title = document.querySelector('#title');
 hambutton.addEventListener('click', () => {
 	mainnav.classList.toggle('show');
 	hambutton.classList.toggle('show');
-    title.classList.toggle('show');
+    title.classList.toggle('hide');
 });
