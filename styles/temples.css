@@ -13,6 +13,7 @@ header,
 footer {
     background-color: steelblue;
     color: white;
+    font-weight: 700;
     display: flex;
     justify-content: space-around;
     border-style: none;
