@@ -14,10 +14,20 @@ footer {
     background-color: steelblue;
     color: white;
     font-weight: 700;
+}
+
+header{
     display: flex;
     justify-content: space-around;
     border-style: none;
     align-items: center;
+}
+
+footer{
+    font-size: 1.25rem;
+    align-items: center;
+    padding:0.5rem;
+    text-align: center;
 }
 
 .navigation {
@@ -43,10 +53,10 @@ footer {
     /* width: 95%; */
     margin: 1rem auto;
     text-align: center;
-    display: grid;
 }
 
 .gridtemple{
+    display: grid;
     grid-template-columns: 1fr;
 }
 
@@ -88,3 +98,4 @@ img {
 figure{
     max-width: 600px;
 }
+
