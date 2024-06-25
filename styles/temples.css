@@ -4,8 +4,8 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-/* 
-*{
+
+/* *{
     border:solid 1px black;
 } */
 
@@ -38,16 +38,19 @@ footer {
     text-decoration: underline;
 }
 
-main {
-    max-width: 640px;
+.gridtemple, main {
+    /* width: 95%; */
     margin: 1rem auto;
     text-align: center;
     display: grid;
+}
+
+.gridtemple{
     grid-template-columns: 1fr;
 }
 
 img {
-    max-width: 75%;
+    max-width: 100%;
 }
 
 #menu::before {
@@ -79,4 +82,8 @@ img {
 
 .open a {
     display: block;
+}
+
+figure{
+    max-width: 600px;
 }
