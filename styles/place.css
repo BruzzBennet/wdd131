@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    /* border: solid 1px black; */
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+picture img{
+    width:100%;
+}
+
+.imagebg section{
+    background-color: rgb(255,255,255,0.75);
+    padding:0.5rem;
+    font-size: 1rem;
+    margin:0.5rem;
+}
+
+header, footer{
+    background-color: #1c5787;
+    color:white;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+
+}
+
+.imagebg section:last-child h2::after{
+    content:"⛅";
+}
+
+.imagebg h2{
+    text-align: center;
+}
+
+.label{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.label p{
+    margin: 0;
+    padding: 0.15rem;
+}
+
+.label p:first-child{
+    grid-column: 1/2;
+    text-align: right;
+    font-weight: 700;
+}
+
+.label p:last-child{
+    grid-column: 2/3;
+}
