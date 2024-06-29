@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root{
+    background-color: white;
+}
 
 *{
     box-sizing: border-box;
@@ -30,7 +32,7 @@ header, footer{
 }
 
 .imagebg section:last-child h2::after{
-    content:"⛅";
+    content:"";
 }
 
 .imagebg h2{
@@ -55,4 +57,10 @@ header, footer{
 
 .label p:last-child{
     grid-column: 2/3;
+}
+
+.wicon{
+    width:25%;
+    display: block;
+    margin: 0 auto;
 }

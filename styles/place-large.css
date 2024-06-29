@@ -76,4 +76,12 @@
     .imagebg{
         background-color:#1c5787;
     }
+
+    .imagebg section:last-child h2::after{
+        content:"⛅";
+    }
+
+    .wicon{
+        display: none;
+    }
 }
