@@ -1,5 +1,6 @@
 :root{
     background-color: white;
+    --cool_blue: #1c5787;
 }
 
 *{
@@ -23,7 +24,7 @@ picture img{
 }
 
 header, footer{
-    background-color: #1c5787;
+    background-color: var(--cool_blue);
     color:white;
     text-align: center;
     padding: 1rem;
