@@ -69,6 +69,30 @@ const temples = [
 	  imageUrl:
 	  "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
 	},
+	{
+		templeName: "Villahermosa Mexico",
+		location: "Villahermosa, Tabasco, Mexico",
+		dedicated: [2000, "May", 21],
+		area: 10700,
+		imageUrl:
+		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/villahermosa-mexico/400x250/villahermosa-mexico-temple-lds-83484-wallpaper.jpg"
+	},
+	{
+		templeName: "Belém Brazil",
+		location: "Belém, Para, Mexico",
+		dedicated: [2020, "November", 20],
+		area: 28675,
+		imageUrl:
+		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/belem-brazil/400x250/belem_brazil_temple_exterior.jpg"
+	},
+	{
+		templeName: "Anchorage Alaska",
+		location: "Anchorage, Alaska, United States",
+		dedicated: [1999, "January", 9],
+		area: 11937,
+		imageUrl:
+		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/anchorage-alaska/400x225/anchorage-temple-lds-253274-wallpaper.jpg"
+	},
 	// Add more temple objects here...
   ];
 

@@ -95,5 +95,14 @@ footer{
 
 .fig{
     max-width: 600px;
+    background-color: #eee;
+    border: solid 1px #bbb;
+    margin:1rem auto;
+    padding:0.5rem;
+}
+
+.fig span{
+    color:navy;
+    font-variant: small-caps;
 }
 

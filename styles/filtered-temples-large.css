@@ -5,9 +5,9 @@
 	#menu {
 		display: none;
 	}
-    /* img{
+    img{
         max-width:100%;
-    } */
+    }
     .gridtemple{
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -16,16 +16,16 @@
     }
 }
 
-@media only screen and (min-width: 640px) and (max-width:1000px) {
+@media only screen and (min-width: 700px) and (max-width:1000px) {
     .navigation{
         display: flex;
     }
 	#menu {
 		display: none;
 	}
-    /* img{
+    img{
         max-width:100%;
-    } */
+    }
     .gridtemple{
         grid-template-columns: 1fr 1fr;
     }
