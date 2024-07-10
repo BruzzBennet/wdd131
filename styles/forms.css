@@ -26,7 +26,7 @@ header, footer{
 }
 
 .form1 input[type="date"], 
-.form1 input[type="textarea"],
+.form1 textarea,
 .form1 input[type="text"],  
 .form1 select{
     display: block;
@@ -39,7 +39,7 @@ header, footer{
 }
 
 .form1 input[type="date"], 
-.form1 input[type="textarea"],
+.form1 textarea,
 .form1 input[type="text"]{
     max-width:31rem;
 
@@ -60,7 +60,7 @@ input[type="radio"]{
     margin-right: 1rem;
 }
 
-input[type="textarea"]{
+textarea{
     height:5rem;
 }
 
