@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <meta name="description" content="WDD 131 - Form">
+    <meta name="author" content="Bruce Bennet">
+    <link rel="stylesheet" href="styles/forms.css">
+    <script src="scripts/forms.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+<body> 
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="form1">
+            <label> Product Name
+                <select id="selector" name="product_name" required>
+                    <option value="" disabled selected>Select a Product</option>                
+                </select> 
+            </label>
+            <div class="rating">Overall Rating                 
+                <label>☆<input type="radio" name="star_rating" value="1" required></label>
+                <label>☆☆<input type="radio" name="star_rating" value="2" required></label>   
+                <label>☆☆☆<input type="radio" name="star_rating" value="3" required></label>   
+                <label>☆☆☆☆<input type="radio" name="star_rating" value="4" required></label>   
+                <label>☆☆☆☆☆<input type="radio" name="star_rating" value="5" required></label>
+            </div>
+            <label>Date of Installation<input type="date" name="date" required></label>
+            <div class="checkbox"> Which features did you find useful in the product <i>(Check all that apply)</i>
+                <label><input type="checkbox" name="feature" value="du">Durability</label>
+                <label><input type="checkbox" name="feature" value="e">Ease of Use</label>   
+                <label><input type="checkbox" name="feature" value="p">Performance</label>   
+                <label><input type="checkbox" name="feature" value="de">Design</label> 
+            </div>
+            <label> Written Review <b class="optional">(Optional)</b>
+                <input type="textarea" name="review">
+            </label>            
+            <label> User Name <b class="optional">(Optional)</b>
+                <input type="text" name="name">
+            </label> 
+            <input type="submit" value="Post Review" id="button">
+        </form>
+    </main>
+    <footer class="foot">
+        <p>©<span id="currentyear"></span> | Bruce Bennet | Coatzacoalcos, Veracruz</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
