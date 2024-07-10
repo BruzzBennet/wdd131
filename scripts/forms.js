@@ -46,9 +46,9 @@ displayList(products);
 
 let count=Number(localStorage.getItem("reviews")) || 0;
 
-// document.querySelector("#button").addEventListener('click', () => {
-// 	count++;
-//   });
+document.querySelector("#button").addEventListener('click', () => {
+	count++;
+  });
 
 localStorage.setItem("reviews",count);
 document.getElementById("reviewcount").textContent=count;
