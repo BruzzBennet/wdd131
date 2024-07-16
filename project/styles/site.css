@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Montserrat", sans-serif;
     background-image: linear-gradient(#fff, #151616)
 }
@@ -7,98 +7,102 @@ body{
     border: solid black 1px;
 } */
 
-header, footer{
+header,
+footer {
     text-align: center;
     background-color: #cf242fff;
     color: white;
     font-weight: 700;
 }
 
-footer{
+footer {
     padding: 1rem;
     font-size: 1rem;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-a{
+a {
     text-decoration: none;
-    margin:0 auto;
+    margin: 0 auto;
     color: white;
     font-size: 2rem;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
-main{
+main {
     margin: 2rem auto;
-    width:85%;
-    border:solid 2px #bbb;
+    width: 85%;
+    border: solid 2px #bbb;
     /* padding:2rem; */
     border-radius: 1rem;
     text-align: center;
 }
 
-p, ul li{
+p,
+ul li {
     font-size: 1.25rem;
 }
 
-.threegrid{
+.threegrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* align-items: center; */
 }
 
-.twogrid{
+.twogrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
-.onegrid{
+.onegrid {
     display: grid;
     align-items: center;
 }
 
-.black, .white{
+.black,
+.white {
     padding: 1rem;
-    height:600px;
+    height: 600px;
 }
 
-.twogrid div{
+.twogrid div {
     padding: 3rem;
     margin: 0 auto;
 }
 
-ul li{
+ul li {
     text-align: left;
 }
 
-.black,.blackheader{
+.black,
+.blackheader {
     background-color: #151616;
-    color:white;
+    color: white;
     /* border-radius:1rem; */
 }
 
-.white{
+.white {
     background-color: white;
 }
 
-.blackheader{
+.blackheader {
     padding: 0.25rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    
+
 }
 
-.bottom{
+.bottom {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
