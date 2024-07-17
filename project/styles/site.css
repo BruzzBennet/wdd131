@@ -1,36 +1,54 @@
 body {
     font-family: "Montserrat", sans-serif;
-    background-image: linear-gradient(#fff, #151616)
+    /* background-image: linear-gradient(#fff, #151616) */
+    /* background-color: #fbfbfb; */
 }
 
-/* *{
-    border: solid black 1px;
-} */
+*{
+    box-sizing: border-box;
+    /* border: solid black 1px; */
+}
 
 header,
 footer {
     text-align: center;
     background-color: #cf242fff;
     color: white;
-    font-weight: 700;
 }
 
 footer {
-    padding: 1rem;
+    padding: 2rem;
     font-size: 1rem;
 }
 
-header {
+footer p{
+    margin:0 auto;
+}
+
+
+.nav1,
+.nav2 {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+}
+
+header {
+    font-weight: 700;
 }
 
 a {
     text-decoration: none;
     margin: 0 auto;
     color: white;
+    font-size: 1.5rem;
+}
+
+.threegrid a {
     font-size: 2rem;
+}
+
+.white a {
+    color: black;
 }
 
 a:hover {
@@ -38,13 +56,20 @@ a:hover {
     font-weight: 700;
 }
 
+/* main,
+header,
+footer {
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
+} */
+
 main {
     margin: 2rem auto;
-    width: 85%;
-    border: solid 2px #bbb;
+    width: 95%;
+    /* border: solid 2px #bbb; */
     /* padding:2rem; */
     border-radius: 1rem;
     text-align: center;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
 p,
@@ -55,7 +80,13 @@ ul li {
 .threegrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* align-items: center; */
+    align-items: center;
+}
+
+.threetwo {
+    display: grid;
+    grid-template-columns: 4fr 1fr 4fr;
+    align-items: center;
 }
 
 .twogrid {
@@ -72,16 +103,27 @@ ul li {
 .black,
 .white {
     padding: 1rem;
-    height: 600px;
+    min-height: 600px;
 }
 
-.twogrid div {
-    padding: 3rem;
+.twogrid div,
+.threegrid div {
+    padding: 2rem;
     margin: 0 auto;
 }
 
 ul li {
     text-align: left;
+}
+
+img {
+    margin: 0 auto;
+    /* filter: drop-shadow(0px 0px 5px black); */
+
+}
+
+.imgshadow{
+    filter: drop-shadow(4px 4px 5px black);
 }
 
 .black,
@@ -105,4 +147,77 @@ ul li {
 .bottom {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+}
+
+#menu {
+    display: none;
+}
+
+.threegrid div.details{
+    /* border: solid black 1px; */
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 0;
+}
+
+.details p{
+    margin: 0;
+    /* border: solid black 1px; */
+    /* padding: 0.15rem; */
+}
+
+.details p:first-child{
+    grid-column: 1/2;
+    text-align: right;
+    font-weight: 700;
+}
+
+.details p:last-child{
+    grid-column: 2/3;
+    text-align: left;
+    margin: auto 10px;
+}
+
+.button{
+    display: block;
+    background-color: #151616;
+    color:white;
+}
+
+.button, .whitebutton{
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding:1rem;
+    border-radius: 1rem;
+    margin:1rem auto;
+    width:100%;
+}
+
+a.button{
+    color: white;
+}
+
+a.whitebutton{
+    color: #151616;
+}
+
+.whitebutton{
+    display: block;
+    background-color: white;
+    color: #151616;
+}
+
+.button:hover, .whitebutton:hover{
+    background-color: #cf242fff;
+    color:white;
+    text-decoration: none;
+}
+
+.up{
+    align-items: baseline;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
 }
