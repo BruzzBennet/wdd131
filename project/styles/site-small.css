@@ -52,8 +52,8 @@
     .nav2{
         grid-row: 4/6;
     }
-    .fakemonimg{
-        width:85%;
+    img{
+        max-width:85%;
         height: auto;
     }
 
